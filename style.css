@@ -17,7 +17,7 @@
     --bg-color: #1a2029;
     --second-bg-color: #1f2733;
     --third-bg-color: #2d3542;
-    --main-color: rgb(0, 213, 18);
+    --main-color: rgb(0, 192, 213);
     --white-color: #fff;
     --tab-list-color: #7c8594;
 }
@@ -63,7 +63,7 @@ p {
     background: var(--nav-bg-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(0, 255, 21, 0.576);
+    border: 1px solid rgb(2, 210, 233);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 15px rgba(0, 213, 18, 0.15);
     border-radius: 5rem;
     z-index: 100;
