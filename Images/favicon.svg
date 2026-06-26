@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Soft glow filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05ff76" />
+      <stop offset="100%" stop-color="#00b30f" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="140" fill="#1a2029" stroke="url(#grad)" stroke-width="12" />
+
+  <!-- Outer Stylized Code/AI 'A' shape -->
+  <path d="M 256 100 L 130 380 L 190 380 L 256 220 L 322 380 L 382 380 Z" fill="url(#grad)" filter="url(#neon-glow)" />
+
+  <!-- Futuristic Horizontal Slash / Code Cursor -->
+  <rect x="200" y="270" width="112" height="24" rx="12" fill="url(#grad)" filter="url(#neon-glow)" />
+
+  <!-- Code/AI node dot at the top vertex -->
+  <circle cx="256" cy="100" r="16" fill="#1a2029" stroke="url(#grad)" stroke-width="8" filter="url(#neon-glow)" />
+</svg>
