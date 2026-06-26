@@ -64,7 +64,7 @@ p {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgb(2, 210, 233);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 15px rgba(0, 213, 18, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 15px rgba(0, 192, 213, 0.15);
     border-radius: 5rem;
     z-index: 100;
     animation: animate-nav 1s ease-in-out 4s backwards, floatNavbar 6s ease-in-out infinite 5s;
@@ -491,7 +491,7 @@ a:hover .tooltip,
 .tab-item:hover {
     transform: translateY(-4px);
     border-color: var(--main-color);
-    box-shadow: 0 10px 20px rgba(0, 213, 18, 0.08);
+    box-shadow: 0 10px 20px rgba(0, 192, 213, 0.08);
 }
 
 .tab-item h4 {
