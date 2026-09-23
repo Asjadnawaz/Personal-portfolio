@@ -278,7 +278,6 @@ a:hover .tooltip,
 
 .home-info .btn-sci .sci a {
     position: relative;
-    margin-left: 2rem;
     display: inline-flex;
     padding: .8rem;
     border: .2rem solid var(--main-color);
